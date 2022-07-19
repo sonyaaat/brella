@@ -1,0 +1,100 @@
+.contacts__container{
+display: flex;
+padding-top: 100px;
+padding-bottom: 95px;
+border-bottom: 1px solid #fff;
+}
+.contacts{
+    background: #214E41;
+}
+.contacts__logo-link{
+    margin-right: 105px;
+}
+.contacts__join{
+    margin-right: 115px;
+
+}
+.contacts__header{
+    margin-bottom: 15px;
+    font-weight: 700;
+font-size: 13px;
+line-height: 1.85;
+letter-spacing: 0.02px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+}
+.contacts__item{
+
+}
+.contacts__link{
+    
+    font-weight: 400;
+font-size: 16px;
+line-height:1.69;
+color: #FFFFFF;
+&:not(:last-child){
+    margin-bottom: 15px;
+}
+}
+.contacts__company{
+
+}
+.contacts__right{
+    margin-left: auto;
+
+}
+.contacts__title{
+    margin-bottom: 19px;
+    font-weight: 400;
+font-size: 13px;
+line-height: 1.85;
+
+letter-spacing: 0.02px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+}
+.contacts__text{
+    width: 345px;
+    margin-bottom: 16px;
+    font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.02px;
+
+color: #FFFFFF;
+
+}
+.contacts__field{
+    display: flex;
+
+}
+.contacts__input{
+    padding-left: 21px;
+background-color: transparent;
+border: 1px solid #fff;
+width: 302px;
+height: 50px;
+color: #fff;
+&::placeholder{
+    font-weight: 400;
+font-size: 14px;
+line-height:1.71;
+letter-spacing: 0.02px;
+
+color: white;
+
+}
+}
+.contacts__button{
+width: 53px;
+height: 50px;
+border: 1px solid #fff;
+
+
+}

@@ -1,0 +1,34 @@
+.footer{
+    background-color: #214E41;
+}.footer__container{
+    padding-bottom: 50px;
+
+display: flex;
+}
+.footer__text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.02px;
+    
+    color: #FFFFFF;
+}
+.footer__policy{
+
+}
+.footer__privacy{
+    position: relative;
+    margin-left: auto;
+margin-right: 21px;
+&::after{
+    content: "";
+    position: absolute;
+    left: 59px;
+    width: 1px;
+    height: 24px;
+    background: #FFFFFF;
+}
+}
+.footer__terms{
+
+}

@@ -1,0 +1,57 @@
+.claims__container{
+    display: flex;
+    padding-top: 120px;
+}
+.claims__content{
+    margin-top: 68px;
+    margin-left: 223px;
+
+}
+.claims__pre-header{
+    margin-bottom: 20px;
+    font-weight: 900;
+font-size: 13px;
+line-height: 1.54;
+letter-spacing: 0.05px;
+text-transform: uppercase;
+
+color: #43806C;
+
+}
+.claims__header{
+    width: 483px;
+    margin-bottom: 34px;
+
+}
+.claims__text{
+    margin-bottom: 26px;
+    width: 545px;
+    font-weight: 400;
+font-size: 18px;
+line-height: 1.67;
+
+letter-spacing: 0.02px;
+
+color: #757575;
+
+
+}
+.claims__play{
+    position: relative;
+    display: flex;
+    font-weight: 700;
+font-size: 18px;
+line-height: 1;
+letter-spacing: 0.02px;
+&::after{
+    content: "";
+    position: absolute;
+    top: 30px;
+    align-items: center;
+
+    width: 88px;
+    height: 2px;
+    background-color: var(--accent-color);
+}
+
+}

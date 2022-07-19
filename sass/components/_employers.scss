@@ -1,0 +1,58 @@
+.employers{
+    background-image: url(../../img/employers.jpg);
+
+}
+.employers__container{
+    padding-top: 126px;
+    padding-bottom: 114px;
+}
+.employers__pre-header{
+    margin-bottom: 20px;
+    font-weight: 700;
+font-size: 13px;
+line-height: 1.54;
+letter-spacing: 0.05px;
+text-transform: uppercase;
+
+color: #43806C;
+}
+.employers__header{
+    width: 391px;
+    margin-bottom: 34px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.28;
+
+}
+.employers__text{
+    width: 491px;
+    margin-bottom: 26px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02px;
+    
+    color: #757575;
+}
+.employers__learn{
+    position: relative;
+    display: flex;
+    font-weight: 700;
+font-size: 18px;
+line-height: 1;
+letter-spacing: 0.02px;
+color: var(--main-text);
+&::after{
+    content: "";
+    position: absolute;
+    top: 30px;
+    align-items: center;
+
+    width: 88px;
+    height: 2px;
+    background-color: var(--accent-color);
+
+}
+}

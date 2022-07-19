@@ -1,0 +1,53 @@
+.hero{
+    background-image: url(../../img/hero.jpg);
+    
+    height: 720px;
+}
+.hero__container{
+    padding-top: 161px;
+    padding-bottom: 281px;
+}
+.hero__header{
+    width: 516px;
+    margin-bottom: 40px;
+}
+.hero__text{
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--main-text);
+}
+.hero__field{
+    display: flex;
+
+}
+.hero__input{
+    padding-left: 20px;
+    border-radius: 6px 0px 0px 6px;
+    width: 280px;
+    height: 60px;
+    border: none;
+    &::placeholder{
+        font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.43;
+color: #222222;
+
+    }
+}
+.hero__button{
+    font-weight: 700;
+font-size: 13px;
+line-height: 1.54;
+color: #FFFFFF;
+
+width: 123px;
+height: 60px;
+border: white;
+
+border-radius: 0px 6px 6px 0px;
+
+}

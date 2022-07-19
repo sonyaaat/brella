@@ -1,0 +1,31 @@
+.ready{
+    display: flex;
+}
+.ready__left{
+    background-image: url(../../img/ready.jpg);
+    width: 720px;
+    height: 577px;
+}
+.ready__right{
+    padding-top: 144px;
+    padding-left: 120px;
+    padding-bottom: 96px;
+    background-color: #E3EEED;
+    height: 577px;
+    width: 720px;
+}
+.ready__header{
+    margin-bottom: 46px;
+    width: 423px;
+
+}
+.ready__lets{
+    margin-bottom: 60px;
+
+}
+.ready__button{
+    width: 125px;
+    height: 47px;
+    border-radius: 4px;
+
+}

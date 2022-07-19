@@ -1,0 +1,42 @@
+.brands__container{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    
+
+}
+.brands__header{
+    text-align: center;
+    margin-bottom: 110px;
+
+}
+.brands__list{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    &::before{
+        content: "";
+        background-image: url(../../img/str-back.svg);
+        width: 30px;
+        height: 23px;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        
+    }
+    &::after{
+        content: "";
+        background-image: url(../../img/str.svg);
+        width: 30px;
+        height: 23px;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+.brands__item{
+&:not(:last-child){
+    margin-right: 80px;
+}
+}
